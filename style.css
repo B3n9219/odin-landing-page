@@ -49,7 +49,8 @@ nav {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 5rem;
+    padding: 5rem 10rem;
+    align-items: center;
 }
 
 .hero h1 {
@@ -86,4 +87,57 @@ nav {
     width: 100%;
     height: auto;
     align-self: center;
+}
+
+.info-section {
+    padding: 5rem 10rem;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info-section .container {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-section .image-container {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 2rem;
+    width: 100px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 10rem;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-source {
+    margin: 0 2rem;
+    align-self: flex-end;
 }
