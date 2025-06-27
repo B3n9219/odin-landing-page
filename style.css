@@ -1,5 +1,26 @@
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
 header {
     background-color: #1F2937;
+    padding: 8px 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
 }
 
 a {
@@ -8,7 +29,55 @@ a {
 }
 
 .icon {
-    width: 32px;
-    height: 32px;
-    background-color: #E5E7EB;
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    align-content: center;
+    padding: 5rem;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .image-container {
+
+}
+
+.hero button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    height: 28px;
+    width: 90px;
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
 }
