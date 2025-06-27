@@ -49,7 +49,6 @@ nav {
 .hero {
     background-color: #1F2937;
     display: flex;
-    align-content: center;
     padding: 5rem;
 }
 
@@ -64,8 +63,14 @@ nav {
     color: #E5E7EB;
 }
 
-.hero .image-container {
+.hero .container {
+    flex: 1 1 50%;
+}
 
+.hero .image-container {
+    padding: 0;
+    margin: 0;
+    flex: 1 1 50%;
 }
 
 .hero button {
@@ -80,4 +85,5 @@ nav {
 .image-container img {
     width: 100%;
     height: auto;
+    align-self: center;
 }
