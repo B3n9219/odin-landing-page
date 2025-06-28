@@ -74,7 +74,7 @@ nav {
     flex: 1 1 50%;
 }
 
-.hero button {
+.hero button, .sign-up-section button {
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
@@ -140,4 +140,65 @@ nav {
 .quote-source {
     margin: 0 2rem;
     align-self: flex-end;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 10rem;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 2rem 4rem;
+}
+
+.sign-up-section .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 75%
+}
+
+.sign-up-section .call-to-action {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.sign-up-section .sign-up-info {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.sign-up-section .button-container {
+    flex: 1 1 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign-up-section button {
+    border: white solid 1px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
